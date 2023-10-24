@@ -96,6 +96,168 @@ text-decoration:none;
 	
 }
 
+/****** ZOne recherche *******/
+.search {
+    display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+    width:100%;
+	height: 281px;
+}
+
+.search-title {
+	margin:0px;
+}
+
+.fa-location-dot {
+	color: black;
+	text-align: center;
+	width: 14px;
+}
+
+.icon-localisation{
+	display:inline-flex;
+    width: 50px;
+	height:49px;
+	background-color: #F2F2F2;
+	border : 1px solid #F2F2F2;
+	border-top-left-radius: 15px ;
+	border-bottom-left-radius: 15px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-zone {
+    height: 47px;
+	border: 1px solid #f2f2f2;
+    border-right: 0px;
+	border-left: 0px;
+	
+	text-align: center;
+	font-weight: bold;
+	margin-left: -3px;
+	
+}
+
+.entry-zone{
+	width: 132px;
+	height: 50px;
+	background-color:#0065FC;
+	border-top-right-radius: 15px ;
+	border-bottom-right-radius: 15px ;
+	border: 1px solid #0065FC;
+	margin-left: -4px;
+	cursor:pointer;
+	font-weight: bold;
+}
+
+
+
+.txt-search{
+    color: white;
+}
+
+.fa-magnifying-glass {
+    display:none;
+
+}
+
+/****** Début filtres ******/
+
+.filters {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.all-buttons{
+    display: inline-flex;
+}
+
+.filters-block {
+	width: 100%;
+    display:inline-flex;
+    flex-direction: row;
+    margin-top: 20px;
+	background-color: transparent;
+}
+
+.first-filters {
+    display: flex;
+    justify-content: space-between;
+	gap:15px;
+    margin-left:15px;
+    position:relative;
+    height:50px;
+    font-size: 17px;
+}
+
+
+.second-filters {
+    display: flex;
+    justify-content: space-between;
+	gap:15px;
+    margin-left:15px;
+    position:relative;
+    height:50px;
+    font-size: 17px;
+}
+
+
+.filters-title{
+    font-weight: bold;
+	font-size: 18px;
+    vertical-align: middle;
+}
+
+.button-filters{
+	display: flex;
+    flex-direction: row;
+    cursor:pointer;
+    padding:4px 19px;
+    gap:10px;
+	background-color:transparent;
+	border-radius: 25px;
+	border: 1px solid #d9d9d9;
+	
+	margin-left: 5px;
+	color: black;
+	font-weight: bold;
+    font-size: 16px;
+    align-items: center;
+}
+
+.button-filters:hover {
+	background-color:#DEEBFF;
+}
+
+.more-section {
+    display:flex;
+	width: 100%;
+	height: 45px;
+	align-items: center;
+}
+
+.fa-info {
+	width: 4px;
+	height: 10px;
+}
+
+.icon-information{
+	width:24px;
+	height:24px;
+	background-color:transparent;
+	border-radius: 100%;
+	border-color: #d9d9d9;
+	border-style: solid;
+	color: black;
+	font-weight: bold;
+}
+
+.disponibilities {
+	margin:10px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
