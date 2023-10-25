@@ -385,7 +385,29 @@ text-decoration:none;
 }
 
 
+/****** Footer ***********/
 
+.footer-bloc {
+    display:flex;
+	justify-content: space-between;
+	background-color: #F2F2F2;
+	margin-top:35px;
+}
+
+.footer-part {
+width:33%;
+justify-content: center;
+padding-left: 20px;
+}
+
+.footer-part h3{
+	font-size:18px;
+	font-weight: bold;
+}
+
+.footer-part p{
+	font-size:16px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
