@@ -418,12 +418,64 @@ padding-left: 20px;
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+   
+  
+    .menu {
+        width:30%;
+        padding : 0px 0px 30px 50px;
+    }
+
+    .search{
+        height:auto;
+    }
+
+    .filters{
+display: flex;
+flex-direction: column ;
+align-items: start;
+padding-bottom:35px;
+    }
+
+.all-buttons{
+    display: inline-flex;
+    justify-content:left;
+}
+.filters-title{
+    text-align: left;
+}
+
+    .first-filters, .second-filters {
+        font-size: 16px;
+     }
+
+    .first-filters{
+        margin-left: 0px;
+    }
+
+    .button-filters {
+        margin-left: 0px;
+    }
+
     .accomodations-and-popular {
         flex-direction: column;
     }
 
+    section.accomodations {
+        padding-bottom: 0px;
+    }
+
     .accomodations {
         width: 100%;
+    }        
+
+    .accomodations-cards .card-title {
+        padding-top: 0px;
+
+    }
+
+    .more-title {
+        padding-bottom: 30px;
+   
     }
 
     .popular {
@@ -432,15 +484,17 @@ padding-left: 20px;
     }
 
     .popular-cards {
+        width:100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
     .popular-cards a {
-        width: 30%;
+        width: 32%;
     }
 
+   
     .popular-cards .card-title {
         font-size: 14px;
     }
@@ -450,7 +504,38 @@ padding-left: 20px;
     }
 }
 
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
+@media (max-width: 1024px) {
+    
+.activities{
+    padding-top:0px;
+}
+
+ .section-activities{
+    margin-top:30px;
+    margin-bottom:0px;
+    padding-bottom:30px;
+    padding-left:0px;
+ }
+  
+
+    .activities-cards IMG {
+        height:200px;
+    }
+
+   
+    .activities-cards a {
+        width: 22%;
+    }
+
+
+    .activities-cards .card-content {
+        display: flex;
+        justify-content: center;
+        height:70px;
+        margin-right:20px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
 }
