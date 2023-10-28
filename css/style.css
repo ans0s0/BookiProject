@@ -425,7 +425,15 @@ text-decoration:none;
     flex-direction: column;
     justify-content: space-between;
     padding:0px;
-    height: 100%;
+       
+}
+
+.activities-cards .card-content {
+       
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
@@ -436,13 +444,10 @@ text-decoration:none;
 }
 
 .activities-cards .card-content {
-    height:51px;
-    
     padding-left: 15px;
-    display: flex;
-    flex-direction: column;
-    gap:30px;
-    box-sizing: border-box;
+    height:59px;
+   
+    
 }
 
 .activities-cards a {
@@ -451,8 +456,10 @@ text-decoration:none;
     
 }
 
-.activities-cards .card-subtitle {
+.activities-subtitle {
     margin: 0;
+    font-size:16px;
+   
   
 }
 
@@ -966,7 +973,7 @@ section.accomodations{
 }
     
 .activities-cards .card-content {
-        height:20%;
+        height:59px;
 }
     
 .activities-cards a {
@@ -981,9 +988,7 @@ section.accomodations{
 }
     
 .activities .card-title {
-        margin-top: 10px;
-        margin-bottom: 4px;
-        font-size: 16px;
+       font-size: 16px;
 }  
 
 /****** Footer ***********/
@@ -991,7 +996,6 @@ section.accomodations{
 
 .footer-bloc {
     display:flex;
-    width:100%;
     flex-direction: column;
 	padding-top:30px;
     padding-left:30px;
