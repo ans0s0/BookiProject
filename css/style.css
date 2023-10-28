@@ -490,8 +490,8 @@ padding-left: 20px;
    
   
     .menu {
-        width:30%;
-        padding : 0px 0px 30px 50px;
+        width:35%;
+        
     }
 
     .search{
@@ -502,7 +502,7 @@ padding-left: 20px;
 display: flex;
 flex-direction: column ;
 align-items: start;
-padding-bottom:35px;
+
     }
 
 .all-buttons{
@@ -511,6 +511,8 @@ padding-bottom:35px;
 }
 .filters-title{
     text-align: left;
+    margin-top:0px;
+    margin-bottom:20px;
 }
 
     .first-filters, .second-filters {
