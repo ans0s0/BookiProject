@@ -811,6 +811,11 @@ a {
         margin-bottom: 0px;
     }
 
+    .card img {
+        width:100%;
+    }
+    
+
     /****** Popular ***********/
     .popular {
         width: 100%;
@@ -1004,6 +1009,7 @@ a {
         padding-top: 30px;
         padding-left: 30px;
         padding-right: 30px;
+        padding-bottom: 30px;
         gap: 50px;
     }
 
